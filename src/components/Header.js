@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/components/header.scss";
+import Login from "./Login";
 import Navigation from "./Navigation";
+import Register from "./Register";
 
 const Header = () => {
   return (
@@ -8,8 +10,10 @@ const Header = () => {
       <div className="Header">
         <Navigation />
         <div className="Title">
-            <h1>Travel Website</h1>
+            
         </div>
+        
+        <Login />
       </div>
     </>
   );
